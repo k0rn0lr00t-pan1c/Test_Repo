@@ -3,7 +3,7 @@
 # Dynamic Source: Uses Get-Location so it always targets the folder where you run the script
 
 $SourcePath = Get-Location
-$DestinationPath = "C:\BBPCData"
+$DestinationPath = "C:\PCData"
 $LogFolder = "C:\applog"
 $LogFile = "$LogFolder\CopyLog.txt"
 
